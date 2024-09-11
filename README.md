@@ -16,6 +16,9 @@ sudo ln -s /usr/bin/htop /home/$username/bin/htop
 
 sudo ln -s /usr/bin/ls /home/$username/bin/ls
 
+sudo ln -s /bin/systemctl /home/ch_uk/bin/systemctl
+
+
 # Remove commads 
 2. "your local user through run this commad to remove remote host commad list"
    
@@ -24,3 +27,6 @@ sudo rm /home/ch_uk/bin/df
 sudo rm /home/ch_uk/bin/htop
 
 sudo rm /home/ch_uk/bin/ls
+
+sudo rm /home/ch_uk/bin/systemctl
+
